@@ -1,0 +1,15 @@
+name: TimeFold
+description: A time modifying plugin
+version: 1.0
+author: Phoenix_IV
+authors: [Silverstar]
+main: de.phoenix_iv.timefold.TimeFold
+website: http://dev.bukkit.org/server-mods/timefold/
+commands:
+    TimeFold:
+        description: Shows the current day/night in the cycle
+        usage: /timefold [world]
+    TimeFold reload:
+        description: Reloads the TimeFold plugin
+    TimeFold version:
+        description: Prints out the current version
